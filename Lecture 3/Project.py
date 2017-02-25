@@ -3,7 +3,7 @@ def collatz(number):
     calculatedNumber = 0
 
     if number%2 == 0:
-        calculatedNumber = int(number/2)
+        calculatedNumber = number//2
     else:
         calculatedNumber = number * 3 + 1
 
